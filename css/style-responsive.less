@@ -1,0 +1,143 @@
+@import url(method.less);
+@import url(vars.less);
+@media (min-width:768px){
+	.navbar-nav .dropdown-menu{
+		.min-w(200px) !important;
+	}
+	.category-menu{
+		.collapse{
+			.dis(block);
+		}
+	}
+
+}
+@media (max-width:991px){
+	
+	.container{
+		.w(100%) !important;
+	}
+	
+	.navbar-header img{
+		.h(40px);
+	}
+
+}
+.product-block .img-pro{
+	.min-h(250px);
+	.max-h(250px);
+}
+@media(max-width:768px) {
+
+	#web4s-menu{
+		.pos(fixed);
+		.t(50px);
+		.l(0px);
+		.w(100%);
+		.bg(white);
+		.z(10);
+		.box-shadow(0px 1px 3px, rgba(0,0,0,0.15));
+	}
+	.navbar-nav .dropdown-menu > li > a{
+		.pos(relative);
+		.pad(10px 15px) !important;
+	}
+	.top-menu{
+		.mar-t(60px);
+		.tex-a(center);
+	}
+	.block-value-number{
+		.tex-a(center);
+	}
+	.navbar-nav.sm-collapsible .caret, .navbar-nav.sm-collapsible ul .caret{
+		.bor(1px solid @color1);
+		.r(0px);
+		.l(auto);
+		.bor-radius(0px);
+		.t(10px);
+	}
+	
+	// .header-menu.animated{
+	// 	.pos(relative);
+	// }
+	.navbar-header{
+		.pos(fixed);
+		.tl(0px,0px);
+		.mar(0px);
+		.pad(10px);
+		.w(100%);
+		.z(10);
+		.bg(white);
+		.h(60px);
+		.box-shadow(0px 1px 3px,rgba(0,0,0,0.3));
+	}
+	.navbar-header img{
+		.h(40px);
+	}
+	.slider-wrapper{
+		.dis(none);
+	}
+	.header-mid{
+		.pad(10px 0px);
+	}
+	.block-login,.links{
+		.w(100%);
+	}
+	.block-login .btn-login{
+		.tex-a(center);
+	}
+	.productTab .nav{
+		.tex-a(center);
+		>li{
+			.mar(5px);
+			.fl(none);
+			.bor(0px);
+			.dis(inline-block);
+			>a{
+				.fo-s(13px);
+				.bor-radius(5px);
+				.pad(10px);
+				.bg(#ccc);
+
+			}
+			&:hover,&.active{
+				>a{
+					&:before{
+						.bor(0px);
+					}
+				}
+				
+			}
+		}
+	}
+	.productTab{
+		.bg(none);
+	}
+	.box-search .input-search{
+		.w(100%);
+		.opacity(1);
+
+	}
+}
+@media(max-width:480px) {
+	.block-login .input-login{
+		.w(100%);
+		.mar(5px 0px);
+	}
+	.block-login .form-control{
+		.w(100%);
+		.max-w(100%);
+	}
+	.block-list-product{
+		.item{
+			.w(100%);
+		}
+	}
+	.title-product, .title-product a{
+		.fo-s(18px);
+	}
+}
+@media(max-width:320px) {
+	.list-partner .owl-controls{
+		.pos(static);
+	}
+}

@@ -1,0 +1,78 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 19/02/2016 14:53
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url('../fonts/Flaticon.eot?v=2.2.2');
+  src: url('../fonts/Flaticon.eot?#iefix&v=2.2.2') format('embedded-opentype'), url('../fonts/Flaticon.ttf?v=2.2.2') format('truetype'), url('../fonts/Flaticon.woff2?v=2.2.2') format('woff2'), url('../fonts/Flaticon.woff?v=2.2.2') format('woff'), url('../fonts/Flaticon.svg?v=2.2.2#simple-line-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon !important;
+        font-size: 20px;
+font-style: normal;
+}
+
+
+.flaticon-armchair:before { content: "\f100"; }
+.flaticon-banker-desk-lamp:before { content: "\f101"; }
+.flaticon-bar-stool:before { content: "\f102"; }
+.flaticon-bookcase:before { content: "\f103"; }
+.flaticon-candelabra:before { content: "\f104"; }
+.flaticon-carpet:before { content: "\f105"; }
+.flaticon-ceramic-vase:before { content: "\f106"; }
+.flaticon-chaise:before { content: "\f107"; }
+.flaticon-chandelier:before { content: "\f108"; }
+.flaticon-clothes-rack:before { content: "\f109"; }
+.flaticon-coat-stand:before { content: "\f10a"; }
+.flaticon-coffee-table:before { content: "\f10b"; }
+.flaticon-computer-desk:before { content: "\f10c"; }
+.flaticon-crib:before { content: "\f10d"; }
+.flaticon-curtains:before { content: "\f10e"; }
+.flaticon-decorative-column:before { content: "\f10f"; }
+.flaticon-decorative-cushions:before { content: "\f110"; }
+.flaticon-decorative-wooden-fish:before { content: "\f111"; }
+.flaticon-designer-chair:before { content: "\f112"; }
+.flaticon-dining-chair:before { content: "\f113"; }
+.flaticon-dining-set:before { content: "\f114"; }
+.flaticon-dinning-table:before { content: "\f115"; }
+.flaticon-drawer-chest:before { content: "\f116"; }
+.flaticon-dressing-table:before { content: "\f117"; }
+.flaticon-fireplace:before { content: "\f118"; }
+.flaticon-floor-lamp:before { content: "\f119"; }
+.flaticon-floor-mirror:before { content: "\f11a"; }
+.flaticon-french-bergere:before { content: "\f11b"; }
+.flaticon-full-bed:before { content: "\f11c"; }
+.flaticon-grandfather-clock:before { content: "\f11d"; }
+.flaticon-highchair:before { content: "\f11e"; }
+.flaticon-jukebox:before { content: "\f11f"; }
+.flaticon-napoleon-clock:before { content: "\f120"; }
+.flaticon-nightstand:before { content: "\f121"; }
+.flaticon-ottoman:before { content: "\f122"; }
+.flaticon-outdoor-table:before { content: "\f123"; }
+.flaticon-paint-framed:before { content: "\f124"; }
+.flaticon-room-divider:before { content: "\f125"; }
+.flaticon-round-carpet:before { content: "\f126"; }
+.flaticon-side-table:before { content: "\f127"; }
+.flaticon-sideboard:before { content: "\f128"; }
+.flaticon-stool:before { content: "\f129"; }
+.flaticon-study-desk:before { content: "\f12a"; }
+.flaticon-swivel-chair:before { content: "\f12b"; }
+.flaticon-table-lamp:before { content: "\f12c"; }
+.flaticon-tv-unit:before { content: "\f12d"; }
+.flaticon-two-seat-sofa:before { content: "\f12e"; }
+.flaticon-vintage-refridgerator:before { content: "\f12f"; }
+.flaticon-wall-mirror:before { content: "\f130"; }
+.flaticon-wardrobe:before { content: "\f131"; }

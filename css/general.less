@@ -1,0 +1,274 @@
+.fo-ad{
+	.pos(relative);
+	-moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: inherit;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+.select-custom {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+	.pos(relative);
+    &:before{
+        .fo-ad;
+        content: "\f0d7";
+        .r(7px);
+        .c(#333);
+        .pos(absolute);
+        .transform-trans(0%,-50%);
+        .t(50%);
+    }
+}
+
+.select-custom select {
+    padding: 5px 8px;
+
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+.cus-select{
+    .pos(relative);
+    .dis(block);
+    .w(100%);
+    .fl(left);
+    select{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        .mar(0px);
+        .pad-r(25px);
+    }
+     &:after{
+        background: none;
+        color: #333;
+        content: "\f107";
+        font-family: "FontAwesome";
+        height: 100%;
+        line-height: 34px;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        .fo-s(14px);
+        width: 30px;
+        .z(3);
+
+    }
+}
+.select-custom select:focus {
+    outline: none;
+}
+.w100{
+	.w(100%);
+}
+.mart10{
+    .mar-t(10px);
+}
+.marb10{
+    .mar-b(10px);
+}
+.mart5{
+	.mar-t(5px);
+}
+.marb5{
+	.mar-b(5px);
+}
+.mart15{
+	.mar-t(15px);
+}
+.marb15{
+    .mar-b(15px);
+}
+.marl15{
+    .mar-l(15px);
+}
+.marl10{
+    .mar-l(10px);
+}
+.marr15{
+    .mar-r(15px);
+}
+.marr10{
+	.mar-r(10px);
+}
+.padt10{
+	.pad-t(10px);
+}
+.padb10{
+	.pad-b(10px);
+}
+.padt15{
+	.pad-t(15px);
+}
+.pad0{
+	.pad(0px);
+}
+.marb15{
+	.mar-b(15px);
+}
+.fos{
+    &18{
+        .fo-s(18px);
+        .lh(24px);
+    }
+    &24{
+        .fo-s(24px);
+        .lh(28px);
+    }
+    &30{
+        .fo-s(30px);
+        .lh(1.06);
+    }
+    &42{
+        .fo-s(42px);
+        .lh(1.06);
+    }
+    &20{
+        .fo-s(20px);
+        .lh(24px);
+    }
+	&22{
+		.fo-s(22px);
+        .lh(28px);
+	}
+	&16{
+		.fo-s(16px);
+        .lh(24px);
+	}
+	&15{
+		.fo-s(15px);
+        .lh(24px);
+	}
+	&14{
+		.fo-s(14px);
+	}
+}
+.borl1{
+    .bor-l(1px solid #ccc);
+}
+.borl1-dotted{
+    .bor-l(1px dotted #ccc);
+}
+.borr1-dotted{
+	.bor-r(1px dotted #ccc);
+}
+.borr1{
+	.bor-r(1px solid #ccc);
+}
+.bort1{
+	.bor-t(1px solid #ccc);
+}
+.borb1{
+    .bor-b(1px solid #ccc);
+}
+.bor1{
+    .bor(1px solid #ccc);
+}
+.texU{
+	.tex-trans(uppercase);
+}
+.text-center{
+    .tex-a(center);
+}
+.c-df{
+    .c(@color1);
+}
+.fow{
+	.fo-w(bold);
+}
+.disb{
+	.dis(block);
+}
+.quickaction_chk input {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+.quickaction_chk{
+    .dis(table-cell);   
+    .ver(middle);
+    .fo-w(normal);
+    &.dpb{
+        .c(#333);
+        span{
+            .fo-s(20px) !important;
+        }
+        .radio:before{
+            .content("\f1db");
+
+
+        }
+        input:checked + .radio:before{
+            .content("\f058");
+            .c(#0072ff);
+        }
+        &:hover{
+            input + .radio:before{
+                .content("\f058");
+                .c(#0072ff);
+            }  
+        }
+    }
+}
+
+.quickaction_chk span {
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'FontAwesome' !important;
+    position: relative;
+    text-rendering: auto;
+    transform: translate(0px, 0px);
+    vertical-align: middle;
+    .mar-r(10px);
+    .c(#aaa);
+    .fo-s(14px) !important;
+}
+.quickaction_chk .radio:before{
+    .content("\f096");
+}
+.quickaction_chk input:checked + .radio:before{
+    
+    .content("\f046");
+}
+.quickaction_chk:hover input + .radio:before{
+    .content("\f046");
+}
+.quickaction_chk:hover{
+    .c(@color1);
+    span{
+        .c(@color1);
+    }
+}
+#sidebar,#main-content{
+    .fl(left);
+    .w(100%);
+}
+.formula-content{
+    .form-control{
+        .tex-a(right);
+    }
+}
